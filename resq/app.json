@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "resq",
+    "slug": "resq",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "resq",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+"android": {
+  "adaptiveIcon": {
+    "foregroundImage": "./assets/images/icon.png",
+    "backgroundColor": "#D32F2F" 
+  },
+  "package": "com.resq.app",
+  "edgeToEdgeEnabled": true
+},
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "69e227bc-634d-4579-bf77-7e76350901a5"
+      }
+    }
+  }
+}
