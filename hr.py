@@ -5,7 +5,7 @@ import time
 app = Flask(__name__)
 
 # SUPABASE CONFIG
-SUPABASE_URL = "https://dhvdnpgnynrcolwbavdi.supabase.co"
+SUPABASE_URL = "xxxx"
 SUPABASE_KEY = "xxxx"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
