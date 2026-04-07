@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # SUPABASE CONFIG
 SUPABASE_URL = "https://dhvdnpgnynrcolwbavdi.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRodmRucGdueW5yY29sd2JhdmRpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAyMDAxMTYsImV4cCI6MjA4NTc3NjExNn0.60VvwhOtEmRLM_DTA72bzWc7XYuwXTYcYeU6Gg4ro58"
+SUPABASE_KEY = "xxxx"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Data structure to hold readings until 10 seconds pass
